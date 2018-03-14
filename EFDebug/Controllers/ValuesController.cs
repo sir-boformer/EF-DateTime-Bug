@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace EFDebug.Controllers
 {
 [Route("api/[controller]")]
-[ApiController]
+[Controller]
 public class ValuesController : ControllerBase
 {
     private readonly AppDbContext _context;
